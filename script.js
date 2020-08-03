@@ -9,8 +9,8 @@ function questionUser() {
   setTimeout(function() {
 
     let request = {
-      useLowercaseLetters: confirm("Do you want to include UPPERCASE letters in your password?"),
-      useUppercaseLetters: confirm("Do you want to include lowercase letters in your password?"),
+      useUppercaseLetters: confirm("Do you want to include UPPERCASE letters in your password?"),
+      useLowercaseLetters: confirm("Do you want to include lowercase letters in your password?"),
       useNumbers: confirm("Do you want to include numbers in your password?"),
       useSpecialLetters: confirm("Do you want to include special characters in your password?"),
       passwordLength: prompt("How many characters would you like your password to be?"  )
